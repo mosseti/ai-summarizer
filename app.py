@@ -3,7 +3,7 @@ from transformers import pipeline
 
 st.set_page_config(page_title="AI Text Summarizer", layout="centered")
 
-st.title("📝 AI Text Summarizer")
+st.title("AI Text Summarizer")
 st.write("Paste any text and get an instant AI-generated summary.")
 
 @st.cache_resource
